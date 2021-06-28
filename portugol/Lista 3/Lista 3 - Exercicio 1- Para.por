@@ -1,31 +1,52 @@
 programa
 {
+	inclua biblioteca Matematica -->Mat
 	
 	funcao inicio()
 	{
-//1- A prefeitura de uma cidade fez uma pesquisa entre 20 de seus habitantes, coletando dados sobre o salário e número de filhos. 
-//A prefeitura deseja saber:   
-// a) média do salário da população; 
-// b) média do número de filhos; 
-// c) maior salário; 
-// d) percentual de pessoas com salário até R$100,00.  
+// Variáveis 
 
+         inteiro habitantes=2, numerodefilhos,mediaFilhos
+         inteiro totalFilhos=0	
+         real salario=0.00, totalSalario=0.00, mediasalario=0.00, percentual,arredondar
+//Estrutura de repetição
+ 		para (inteiro s=1;s <=3; s++){
+		
+ 		escreva("\nDigite o seu salário:")
+		leia (salario)
 
+		totalSalario+= salario
 
-// Variáveis
+		mediasalario = (totalSalario/habitantes)
+		escreva("\n A média de salário é:",mediasalario,"\n")
+ 	}	
+ 		para (inteiro f=1;f <=3; f++){
+		
+ 		escreva("\nDigite a quantidade de filhos:")
+		leia (numerodefilhos)
 
+		totalFilhos += numerodefilhos
 
-
-	
-		escreva("Olá Mundo")
-	}
+		mediaFilhos = (totalFilhos/habitantes)
+		escreva("\n A média de filhos é:",mediaFilhos,"\n")
+	 	}
+	 	se (salario <=100){
+	 	percentual =(salario*100/(totalSalario))
+	 	arredondar= Mat.arredondar(percentual,2)	
+		
+		escreva("O percentual de pessoas com salário até R$100,00 é de:",arredondar,"%")
+	 		
+	 		
+	 	}
+ 	
+}
 }
 /* $$$ Portugol Studio $$$ 
  * 
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 369; 
+ * @POSICAO-CURSOR = 805; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
