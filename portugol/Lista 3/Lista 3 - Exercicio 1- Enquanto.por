@@ -24,7 +24,7 @@ programa
 // Entrada // Processamento
  
 	enquanto (valorDigitado >0){
-		
+
 		escreva("Digite um valor positivo ou negativo para sair")
 		leia(valorDigitado)
 			se(valorDigitado>=0){
@@ -48,7 +48,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 710; 
+ * @POSICAO-CURSOR = 626; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
