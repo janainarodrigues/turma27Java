@@ -24,10 +24,10 @@ public class Lista4Exercicio1 extends Lista3Exercicio4Java {
 					}
 				}
 					
-				limpa()
+		
 				System.out.println("O maior valor digitado é:"+ maiorValor);         // Variáveis 		
-				int numero[6],x
-				int maiorValor=0
+				int numero[6],x;
+				int maiorValor=0;
 				
 		// Condicional	
 				
@@ -40,7 +40,7 @@ public class Lista4Exercicio1 extends Lista3Exercicio4Java {
 					}
 				}
 					
-				limpa()
+				
 				System.out.println("O maior valor digitado é:"+ maiorValor);
 		
 	}
