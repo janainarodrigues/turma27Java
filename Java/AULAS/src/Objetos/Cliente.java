@@ -3,9 +3,10 @@ package Objetos;
 public class Cliente {
 
 	// Atributos
-	
+		public String ativo;
 		public String cadastroCliente;
 		public int diaMesAno;
+		
 	//Metodos	
 		public void mostrarAgin() {
 			System.out.println(-diaMesAno);

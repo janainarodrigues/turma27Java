@@ -8,19 +8,30 @@ public class Aviao {
 	public String tipo;
 	public boolean noAr;
 	public boolean ligado;
-	public int valocidade;
+	public int velocidade;
 	
-	System.out.println("Qual o nome do cliente?");
+	
 	// Metodo - que o avião faz  ou tem que fazer?
 	
-	public void decolando(); 
-		ligado=true;
+	public void ligar() {
+		ligado = true;
 	}
-	public void pousar();	
+	public void ligar() {
+		ligado = false;
+	}
+	
+	public void pousar() {
+		for (int x=1); x <10; x++){
+			diminuirVelocidade ();
+		}
 		noAr=false;
 	}
 		
+	
+	
+	
 	public void aumentarVelocidade() {
-		velocidade+++
+		velocidade++;
+		
 	
 }
